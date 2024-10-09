@@ -12,6 +12,10 @@ Awesome-CV_CN对其进行了中文本地化，将字体替换成了思源黑，�
     <img src="./example/resume_example.png" alt="image1" width="500" />
     <img src="./example/cover_letter_example.png" alt="image2" width="500" />
 </div>
+
+# 使用方法
+下载release中的文件
+
 # Project Fork and Modifications
 
 This project is based on the original work from [Original Author Name](https://github.com/originalauthor) and their repository [Original Project](https://github.com/originalproject).
