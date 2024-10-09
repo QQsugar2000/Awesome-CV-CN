@@ -18,6 +18,10 @@
 或者你也可以使用本地latex编译器。
 注意，必须主动在overleaf的设置中，设置编译器为XeLatex(左边menu-settings）。
 
+# 注意事项
+中文的排版支持不太好，很容易超过页面宽度，需要手动换行（latex两个斜杠\\即可）
+如果需要调整行间距或压缩排版，可以调整awesome-cv.cls的一些内容，例如搜索vspace和parskip改数值
+
 # Project Fork and Modifications
 
 This project is based on the original work from [posquit0 Byungjin Park]([https://github.com/originalauthor](https://github.com/posquit0)) and their repository [Original Project]([https://github.com/originalproject](https://github.com/posquit0/Awesome-CV)).
