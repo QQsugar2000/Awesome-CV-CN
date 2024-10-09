@@ -14,9 +14,9 @@
 </div>
 
 # 使用方法
-下载release中的zip文件,上传到overleaf并使用即可
-或者你也可以使用本地latex编译器
-注意，必须主动在overleaf的设置中，设置编译器为XeLatex(左边menu-settings）
+下载release中的zip文件,上传到overleaf并使用即可。
+或者你也可以使用本地latex编译器。
+注意，必须主动在overleaf的设置中，设置编译器为XeLatex(左边menu-settings）。
 
 # Project Fork and Modifications
 
