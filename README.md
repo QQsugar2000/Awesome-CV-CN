@@ -1,5 +1,5 @@
 # 项目由来
-美观、简约风格的个人简历latex模板（包括coverletter模板），改造自Awesome CV项目。
+美观、简约风格的个人简历latex模板（包括coverletter模板），fork自Awesome CV项目。
 
 
 苦于中文简历模板要么需要付费下载、要么可编辑性差（word版本，或者是超级简历那种）；因此找了一圈Github上的latex简历模板，发现大多数不是很美观
@@ -14,7 +14,9 @@ Awesome-CV_CN对其进行了中文本地化，将字体替换成了思源黑，�
 </div>
 
 # 使用方法
-下载release中的文件
+下载release中的zip文件,上传到overleaf并使用即可
+或者你也可以使用本地latex编译器
+注意，必须主动在overleaf的设置中，设置编译器为XeLatex(左边menu-settings）
 
 # Project Fork and Modifications
 
