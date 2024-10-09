@@ -1,0 +1,112 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter (Modified by qqsugar2020)
+%
+% This template is based on the original work from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Original Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Modifications made by qqsugar2020:
+% - Chinese font handling improved
+% - Customized layout for better support of multilingual content
+% - Modification can be seen:https://github.com/QQsugar2000/Awesome-CV_CN/
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+% See the LICENSE file for more details.
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.4cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,noedge,left]{profile}
+\name{不愿}{透露}
+\position{浙江大学计算机学院{\enskip\cdotp\enskip}计算机技术硕士}
+\address{不愿透露, 余杭塘路866号, 西湖区, 杭州市, 310058, 浙江省}
+
+\mobile{(+86) 199-0999-9999}
+\email{26666666666@qq.com}
+\github{Git: QQsugar2000}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+\wechat{WeChat:199099999999}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{``本简历内容完全虚构，包含的经验仅限于作者专业和经历，请自行修改"}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Byungjin Park~~~·~~~Résumé}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+\input{resume/education.tex} %教育经历文件，可自行编辑
+\input{resume/summary.tex} %summary在国内不常用，已经删除，可自行编辑
+\input{resume/experience.tex} %工作经历文件，可自行编辑
+\input{resume/honors.tex} %奖励和成果文件，可自行编辑
+\input{resume/presentation.tex} %presentation在国内不常用，已删除，可自行编辑
+\input{resume/student_work} %学生工作文件，可自行编辑
+\input{resume/extracurricular.tex} %其他内容文件，可自行编辑
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+\end{document}

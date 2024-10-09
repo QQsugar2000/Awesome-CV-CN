@@ -1,0 +1,147 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter (Modified by qqsugar2020)
+%
+% This template is based on the original work from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Original Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Modifications made by qqsugar2020:
+% - Chinese font handling improved
+% - Customized layout for better support of multilingual content
+% - Modification can be seen:https://github.com/QQsugar2000/Awesome-CV_CN/
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+% See the LICENSE file for more details.
+
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\photo[circle,noedge,left]{profile}
+\name{不愿}{透露}
+\position{浙江大学计算机学院{\enskip\cdotp\enskip}计算机技术硕士}
+\address{不愿透露, 余杭塘路866号, 西湖区, 杭州市, 310058, 浙江省}
+
+\mobile{(+86) 199-0999-9999}
+\email{26666666666@qq.com}
+\github{Git: QQsugar2000}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+\wechat{WeChat:199099999999}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{``本简历内容完全虚构，包含的经验仅限于作者专业和经历，请自行修改"}
+
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {计算机技术硕士在读}
+  {计算机学院\\人工智能所\\研究方向：知识图谱 人工智能}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{方向：算法工程师}
+% How the letter is opened
+\letteropening{尊敬的HR先生/女生}
+% How the letter is closed
+\letterclosing{真诚的，}
+% Any enclosures with the letter
+\letterenclosure[附件]{我的个人简历}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{关于我？}
+%由于源项目使用英文排版，中文很容易超出页面宽度，所以请使用\\手动换行
+你或许需要在这里用一两句话给出自己的基本信息，可能和上面header的个人信息有些重复，但这是必要的。之后，\\你需要指明自己的申请职位，包括可能已经确定的细分部门、实验室等等。之后，可以用一两句话突出自己的关键\\信息或背景（提前指出自己的优势）。如果不知道写什么，作为cover letter的一部分，可以参考正常书信的开头，\\介绍自己、来由等。事实上，国内求职较少使用cover letter，而申请学位、海外求职的情况复杂，所以这里写什么，\\需要具体情况来定。
+
+\lettersection{为什么投递xx?}
+%由于源项目使用英文排版，中文很容易超出页面宽度，所以请使用\\手动换行
+这里主要是讲述投递对方的动机，（由于源模板是国外的，他们比较看重对双方文化的认同，国内求职不是在意这块，\\可以写一些对对方公司or实验室的了解到的信息，包括主要业务、产品，或是科研方向，自己对产品线或方向的理解等。\\当然了，考虑到认同与否的原因，也应该体现出自己对对方的一些期待（或者是验证公开信息是否真实）之类的。\\从求职的角度来说，一般来说尽量说好话，这也不需要我特别说明。
+\\这一段可能还可以更长，但我说的就这些了，所以你会看到我在水行数……
+\\水行数…………
+
+\lettersection{我的优势在于?}
+%由于源项目使用英文排版，中文很容易超出页面宽度，所以请使用\\手动换行
+这里算是cover letter最重要的部分了，考虑到在海外语境下，看完cover letter对方未必还看简历，这里必须/应该\\要把自己的真实优势和背景说明白。从个人申请的经验来说，一般以讲故事/时间线叙述的方式讲清楚自己的一些学历、\\研究背景，然后引入到自己的优势上来。如作为一个半路转码的人，我会写：我本科做了什么什么，发生了什么什么事\\决定转行，但是我的本科的经历，证明了我的学习能力，还给我带来了跨学科背景，这有利于我未来的什么什么项目……\\当然，没有故事也可以不必硬扯
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
