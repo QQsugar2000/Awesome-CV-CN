@@ -20,11 +20,11 @@
 
 # Project Fork and Modifications
 
-This project is based on the original work from [Original Author Name](https://github.com/originalauthor) and their repository [Original Project](https://github.com/originalproject).
+This project is based on the original work from [posquit0 Byungjin Park]([https://github.com/originalauthor](https://github.com/posquit0)) and their repository [Original Project]([https://github.com/originalproject](https://github.com/posquit0/Awesome-CV)).
 
-Modifications made by [Your Name](https://github.com/qqsugar2020):
-- Added feature X
-- Improved performance in area Y
-- Updated Chinese language support
+主要修改
+- 字体本地化，替换为思源黑
+- 排版本地化，增加了头像、增加了一些文本列表，增加了段落间距
+- 内容调整，将一些国内求职不太用到的内容删除
 
-The project continues to be licensed under the [original license] included in this repository.
+The project continues to be licensed under the original license included in [Original Project]([https://github.com/originalproject](https://github.com/posquit0/Awesome-CV)).
