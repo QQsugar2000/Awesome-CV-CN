@@ -3,9 +3,9 @@
 
 
 苦于中文简历模板要么需要付费下载、要么可编辑性差（word版本，或者是超级简历那种）；因此找了一圈Github上的latex简历模板，发现大多数不是很美观
-[Awesome-CV项目](https://github.com "GitHub - Where the world builds software together")比较简约美观，但是是英文的
-Awesome-CV_CN对其进行了中文本地化，将字体替换成了思源黑，并将一些表达方式替换成了国内的表达习惯
-现在，你可以直接使用本项目在latex编译器中运行
+[Awesome-CV项目](https://github.com "GitHub - Where the world builds software together")比较简约美观，但是是英文的。
+本项目对其进行了中文本地化，将字体替换成了思源黑，并将一些表达方式替换成了国内的表达习惯
+现在，你可以直接在latex编译器中运行这个项目
 # 预览和效果
 简历模板预览效果如下：
 <div align="center">
